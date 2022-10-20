@@ -1,0 +1,221 @@
+* {
+    background-color: rgba(252, 223, 9, 255);
+    font-family: 'Oswald', sans-serif;
+    box-sizing: border-box;
+    max-width: 1200px;
+    /* height: 1000px; */
+
+}
+
+body {
+    margin: 0;
+    border: 1px solid;
+    justify-content: center;
+
+}
+
+main {
+    height: 600px;
+}
+
+.title {
+    border: 1px solid;
+    letter-spacing: 12px;
+    /* background-color: rgba(240, 48, 95, 255); */
+    color: white;
+    margin: 10px;
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+    left: 3%;
+    top: 0%;
+    background: transparent;
+}
+
+h2 {
+    text-align: left;
+}
+
+header {
+    height: 50%;
+}
+
+article {
+    height: 50px;
+    /* border: 1px solid; */
+    line-height: 1;
+}
+
+hr {
+    height: 3px;
+    background-color: LimeGreen;
+    border-color: LimeGreen;
+}
+
+
+.top-img {
+    transform: scaleY(-1);
+    height: 120px;
+}
+
+.subtitle {
+    line-height: 0.1;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+
+
+/* .whitehat {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0px 120px 140px 180px;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: black;
+    border-left-color: transparent;
+    position: absolute;
+
+    left: 0;
+  } */
+
+footer {
+    /* border: 1px solid; */
+    background-color: transparent;
+
+}
+
+span.title {
+    font-size: 48px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    /* border: 1px solid blueviolet; */
+    height: 100%;
+}
+
+.footer-bottom {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.flex-container .box {
+    width: 33%;
+    font-size: 30px;
+    /* border: 1px solid green; */
+    color: #fa275a;
+    margin: 0 45px;
+}
+
+.footer-bottom .box {
+    width: 33%;
+    /* width: 600px; */
+    /* font-size: 16px; */
+    border: 1px solid white;
+    color: white;
+    margin: 0;
+    z-index: 10;
+    position: absolute;
+    background-color: transparent;
+    bottom: 0;
+    left: 90px;
+    /* height: 50px; */
+
+}
+
+.footer-box {
+    border: 1px solid red;
+}
+
+.item {
+    font-size: 0;
+}
+
+.item p {
+    /* border: 1px solid darkmagenta; */
+    display: inline-block;
+
+    margin-bottom: 1px;
+    font-size: 18px;
+    font-weight: 500;
+    align-items: flex-start;
+    /* vertical-align:top */
+}
+
+
+.price {
+    text-align: right;
+    width: 25%;
+    font-size: initial;
+
+}
+
+.flavor {
+    text-align: left;
+    width: 75%;
+    font-size: initial;
+    margin: 0 auto;
+    display: inline-block;
+    /* vertical-align:top */
+
+}
+
+article .temp {
+    font-size: 12px;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-top: 0;
+
+}
+
+.bottom-img {
+    height: 200px;
+    /* color: rgba(252, 223, 9, 255); */
+    margin-left: 50px;
+}
+
+.bottom-upgrade {
+    margin-left: 50px;
+    margin-top: 50px;
+    position: absolute;
+    z-index: 10;
+    /* width: 100%; */
+    left: 3%;
+    /* top: 10%; */
+    background: transparent;
+    /* color: rgba(252, 223, 9, 255); */
+    font-size: 32px;
+
+}
+
+.footer-bottom .item{
+    /* background-color: transparent; */
+    background-color: #fa275a;  
+
+}
+
+/* .footer-button { 
+    background-attachment: fixed;
+	background-color: transparent;
+	background-image: url("//flash-coffee.com/tw/wp-content/uploads/sites/16/2021/03/Rectangle.png");
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	bottom: -220px;
+	box-sizing: border-box;
+	color: #ffffff;
+	font-family: "Open Sans", sans-serif;
+	font-size: 12.96px;
+	left: 0px;
+	line-height: 22px;
+	min-height: 200px;
+	padding: 22px 0px;
+	padding-bottom: 35px;
+	padding-top: 100px;
+	position: absolute;
+	right: 0px;
+	text-transform: uppercase;
+	top: 0px;
+	width: 100%;
+} */
